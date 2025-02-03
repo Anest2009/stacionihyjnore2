@@ -71,9 +71,9 @@ export function Contact() {
 
           <div className="space-y-8">
             {[
-              { icon: Mail, title: 'Email Us', content: 'stacionihyjnor@gmail.com' },
-              { icon: Phone, title: 'Call Us', content: '+44 7767 912303' },
-              { icon: MapPin, title: 'Visit Us', content: '123 Mindfulness Street\nSerenity City, SC 12345' }
+              { icon: Mail, title: 'Kontakt', content: 'stacionihyjnor@gmail.com' },
+              { icon: Phone, title: 'Telefon', content: '+44 7767 912303' },
+              { icon: MapPin, title: 'Lokacion', content: '123 Mindfulness Street\nSerenity City, SC 12345' }
             ].map((item, index) => (
               <div key={index} className="group bg-white/50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-[#B5CDA3]/20 flex items-start hover:shadow-xl transition-all duration-300">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#B5CDA3] to-[#A9DFF7] rounded-xl flex items-center justify-center transform group-hover:rotate-6 transition-transform duration-300">
