@@ -14,10 +14,10 @@ export function Navbar() {
           </a>
 
           <div className="hidden md:flex md:items-center md:space-x-8">
-            <NavLink href="#about">About</NavLink>
-            <NavLink href="#services">Services</NavLink>
-            <NavLink href="#booking">Book Now</NavLink>
-            <NavLink href="#contact">Contact</NavLink>
+            <NavLink href="#about">Rreth nesh</NavLink>
+            <NavLink href="#services">Sherbime</NavLink>
+            <NavLink href="#booking">Pronoto</NavLink>
+            <NavLink href="#contact">Kontakt</NavLink>
           </div>
 
           <MobileMenu 
