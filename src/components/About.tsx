@@ -14,8 +14,8 @@ export function About() {
               <Sparkles className="w-12 h-12 text-[#B5CDA3]" />
             </div>
             <div className="text-center">
-              <h2 className="text-3xl font-serif text-gray-900 mb-4">Meet Lola</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto mb-12">Founder & Spiritual Guide</p>
+              <h2 className="text-3xl font-serif text-gray-900 mb-4">Rreth Loles</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto mb-12">Themeluesja & Guida shpirtërore</p>
             </div>
           </div>
           
@@ -29,24 +29,23 @@ export function About() {
               /> 
             </div>
             <div className="space-y-6">
-              <p className="text-lg text-gray-600 leading-relaxed">
-                With over 15 years of experience in spiritual guidance and meditation, Lola has helped countless individuals find their inner peace and purpose. Her journey began in the serene mountains of Tibet, where she spent years studying ancient meditation techniques and spiritual practices.
+              <p className="text-lg text-gray-600 leading-relaxed">Me mbi 15 vjet përvojë në drejtimin shpirtëror dhe meditimin, Lola ka ndihmuar individë të panumërt të gjejnë paqen dhe qëllimin e tyre të brendshëm. Udhëtimi i saj filloi në malet e qeta të Tibetit, ku ajo kaloi vite duke studiuar teknikat e lashta të meditimit dhe praktikat shpirtërore.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Lola's unique approach combines traditional wisdom with modern mindfulness techniques, creating a transformative experience that resonates with people from all walks of life. Her mission is to make spiritual growth accessible and meaningful for everyone.
+        Qasja unike e Lola kombinon mençurinë tradicionale me teknikat moderne të ndërgjegjes, duke krijuar një përvojë transformuese që rezonon me njerëz nga të gjitha sferat e jetës. Misioni i saj është të bëjë rritjen shpirtërore të arritshme dhe kuptimplote për të gjithë.
               </p>
               <div className="grid grid-cols-3 gap-4 pt-6">
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
                   <div className="text-2xl font-bold text-[#B5CDA3]">15+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
+                  <div className="text-sm text-gray-600">Vite përvojë</div>
                 </div>
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
                   <div className="text-2xl font-bold text-[#B5CDA3]">1000+</div>
-                  <div className="text-sm text-gray-600">Clients Guided</div>
+                  <div className="text-sm text-gray-600">Klientë të udhëhequr</div>
                 </div>
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
                   <div className="text-2xl font-bold text-[#B5CDA3]">100%</div>
-                  <div className="text-sm text-gray-600">Dedication</div>
+                  <div className="text-sm text-gray-600">Dedikim</div>
                 </div>
               </div>
             </div>
@@ -60,8 +59,8 @@ export function About() {
               <Sparkles className="w-12 h-12 text-[#B5CDA3]" />
             </div>
             <div className="text-center">
-              <h2 className="text-3xl font-serif text-gray-900 mb-4">Meet Morena</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto mb-12">Co-Founder & Wellness Coach</p>
+              <h2 className="text-3xl font-serif text-gray-900 mb-4">Rreth Morenes</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto mb-12">Bashkë-themelues dhe trajner Wellness</p>
             </div>
           </div>
           
@@ -76,23 +75,23 @@ export function About() {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-              Morena, a passionate entrepreneur with a deep appreciation for spirituality, was inspired by the transformative power of healing and decided to join forces with Lola to establish Stacioni Hyjnor.
+              Morena, një sipërmarrëse e pasionuar me një vlerësim të thellë për spiritualitetin, u frymëzua nga fuqia transformuese e shërimit dhe vendosi të bashkojë forcat me Lolën për të themeluar Stacioni Hyjnor.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-              While not a coach herself, she is dedicated to creating a space where individuals can embark on their journey of inner peace and self-discovery.
+            Ndonëse nuk është vetë trajnere, ajo është e përkushtuar për të krijuar një hapësirë ​​ku individët mund të nisin udhëtimin e tyre të paqes së brendshme dhe të zbulimit të vetvetes.
               </p>
               <div className="grid grid-cols-3 gap-4 pt-6">
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
                   <div className="text-2xl font-bold text-[#B5CDA3]">5+</div>
-                  <div className="text-sm text-gray-600">Years of Spiritual Exploration</div>
+                  <div className="text-sm text-gray-600">Vite përvojë</div>
                 </div>
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
                   <div className="text-2xl font-bold text-[#B5CDA3]">500+</div>
-                  <div className="text-sm text-gray-600">Lives Impacted</div>
+                  <div className="text-sm text-gray-600">Jetë të ndikuara</div>
                 </div>
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
                   <div className="text-2xl font-bold text-[#B5CDA3]">100%</div>
-                  <div className="text-sm text-gray-600">Dedication to the Mission</div>
+                  <div className="text-sm text-gray-600">Dedikim ne kete mison</div>
                 </div>
               </div>
             </div>
