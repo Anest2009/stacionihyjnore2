@@ -5,23 +5,23 @@ export function FeaturedServices() {
   const services = [
     {
       icon: Flower,
-      title: "Meditim me giude",
-      description: "Përjetoni relaksim të thellë dhe paqe të brendshme përmes seancave tona të personalizuara të meditimit."
+      title: "Guided Meditation",
+      description: "Experience deep relaxation and inner peace through our personalized meditation sessions."
     },
     {
       icon: Heart,
-      title: "Balancim Chakrash",
-      description: "Riktheni harmoninë në qendrat tuaja të energjisë me teknikat tona të specializuara të shërimit të çakrës."
+      title: "Chakra Balancing",
+      description: "Restore harmony to your energy centers with our specialized chakra healing techniques."
     },
     {
       icon: Brain,
-      title: "Trajnimi ndërgjegjes",
-      description: "Mësoni teknika praktike për të qëndruar prezent dhe për të reduktuar stresin në jetën tuaj të përditshme."
+      title: "Mindfulness Training",
+      description: "Learn practical techniques to stay present and reduce stress in your daily life."
     },
     {
       icon: Sparkles,
-      title: "Këshillim Shpirtëror",
-      description: "Merrni udhëzime dhe mbështetje në udhëtimin tuaj shpirtëror nga këshilltarët tanë me përvojë."
+      title: "Spiritual Counseling",
+      description: "Receive guidance and support on your spiritual journey from our experienced counselors."
     }
   ];
 
@@ -29,9 +29,9 @@ export function FeaturedServices() {
     <section className="py-24 bg-gradient-to-b from-white via-[#B5CDA3]/5 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-serif text-gray-900 mb-4">Sherbimet Tona</h2>
+          <h2 className="text-3xl font-serif text-gray-900 mb-4">Our Services</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Zbuloni gamën tonë të shërbimeve shpirtërore dhe të vëmendjes, të krijuara për t'ju ndihmuar të gjeni ekuilibrin, paqen dhe rritjen personale.
+            Discover our range of spiritual and mindfulness services, designed to help you find balance, peace, and personal growth.
           </p>
         </div>
 
