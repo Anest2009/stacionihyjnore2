@@ -4,45 +4,45 @@ import { Button } from './Button';
 
 const sessions = [
   {
-    title: "Meditim - 3 Seanca",
-    duration: "60 minuta per seance",
+    title: "Meditation - 3 Sessions",
+    duration: "60 minutes per session",
     price: "120€",
-    description: "Shijoni 3 seanca meditimi të personalizuara të përshtatura për nevojat tuaja.",
+    description: "Enjoy 3 personalized meditation sessions tailored to your needs.",
     calendlyUrl: "https://tidycal.com/stacionihyjnor/meditim3seanca"
   },
   {
-    title: "Meditim - 6 Seanca",
-    duration: "60 minuta per seance",
+    title: "Meditation - 6 Sessions",
+    duration: "60 minutes per session",
     price: "240€",
-    description: "Zhytuni më thellë me 6 seanca meditimi të personalizuara.",
+    description: "Dive deeper with 6 personalized meditation sessions.",
     calendlyUrl: "https://tidycal.com/stacionihyjnor/meditim6seanca"
   },
   {
-    title: "Meditim - 10 Seanca",
-    duration: "60 minuta per seance",
+    title: "Meditation - 10 Sessions",
+    duration: "60 minutes per session",
     price: "360€",
-    description: "Paketa gjithëpërfshirëse prej 10 seancash, duke përfshirë të parën falas.",
+    description: "A comprehensive package of 10 sessions, including the first one free.",
     calendlyUrl: "https://tidycal.com/stacionihyjnor/meditim10seanca"
   },
   {
-    title: "Sherim zeri - 3 Seanca",
-    duration: "60 minuta per seance",
+    title: "Sound Healing - 3 Sessions",
+    duration: "60 minutes per session",
     price: "120€",
-    description: "Relaksohuni me 3 seanca të personalizuara të shërimit të zërit.",
+    description: "Relax with 3 personalized sound healing sessions.",
     calendlyUrl: "https://tidycal.com/stacionihyjnor/sherimzeri3"
   },
   {
-    title: "Sherim zeri- 6 Seanca",
-    duration: "60 minuta per seance",
+    title: "Sound Healing - 6 Sessions",
+    duration: "60 minutes per session",
     price: "240€",
-    description: "Përjetoni 6 seanca të shërimit të zërit për relaksim të thellë.",
+    description: "Experience 6 sound healing sessions for deep relaxation.",
     calendlyUrl: "https://tidycal.com/stacionihyjnor/sherimzeri6"
   },
   {
-    title: "Sherim zeri - 10 Seanca",
-    duration: "60 minuta per seance",
+    title: "Sound Healing - 10 Sessions",
+    duration: "60 minutes per session",
     price: "360€",
-    description: "Paketa e plotë me 10 seanca të shërimit të zërit, seanca e parë falas.",
+    description: "A complete package of 10 sound healing sessions, with the first session free.",
     calendlyUrl: "https://tidycal.com/stacionihyjnor/sherimzeri10"
   }
 ];
@@ -52,9 +52,9 @@ export function Booking() {
     <section id="booking" className="py-24 bg-gradient-to-br from-[#B5CDA3]/5 via-white to-[#A9DFF7]/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-serif text-gray-900 mb-4">Pronoto Seancen tende</h2>
+          <h2 className="text-3xl font-serif text-gray-900 mb-4">Book Your Session</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Zgjidhni nga gama jonë e seancave të personalizuara për të filluar udhëtimin tuaj.
+            Choose from our range of personalized sessions to begin your journey.
           </p>
         </div>
 
@@ -74,13 +74,13 @@ export function Booking() {
                   <div className="w-8 h-8 bg-gradient-to-br from-[#B5CDA3]/20 to-[#A9DFF7]/20 rounded-lg flex items-center justify-center">
                     <Users className="w-4 h-4 text-[#B5CDA3]" />
                   </div>
-                  <span className="ml-3 text-gray-600">1-ne-1 Seanca</span>
+                  <span className="ml-3 text-gray-600">1-on-1 Session</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-8 h-8 bg-gradient-to-br from-[#B5CDA3]/20 to-[#A9DFF7]/20 rounded-lg flex items-center justify-center">
                     <Calendar className="w-4 h-4 text-[#B5CDA3]" />
                   </div>
-                  <span className="ml-3 text-gray-600">Orar fleksibel</span>
+                  <span className="ml-3 text-gray-600">Flexible Schedule</span>
                 </div>
               </div>
               <p className="text-gray-600 mb-6">{session.description}</p>
@@ -90,7 +90,7 @@ export function Booking() {
                 className="w-full group-hover:bg-[#A9DFF7] transition-colors duration-300" 
                 onClick={() => window.open(session.calendlyUrl, '_blank')}
               >
-                Pronoto Tani
+                Book Now
               </Button>
             </div>
           ))}
