@@ -17,16 +17,16 @@ export function Hero() {
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif text-white mb-6 drop-shadow-lg">
-          Shenjtërorja juaj për
-          <span className="block mt-2 text-[#B5CDA3]">Vetëdije dhe rritje shpirtërore</span>
+          Your Sanctuary for
+          <span className="block mt-2 text-[#B5CDA3]">Awareness and Spiritual Growth</span>
         </h1>
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Zbuloni paqen e brendshme dhe rritjen shpirtërore përmes meditimit të drejtuar, praktikave të ndërgjegjes dhe zhvillimit personal.
+          Discover inner peace and spiritual growth through guided meditation, mindfulness practices, and personal development.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="primary" className="backdrop-blur-sm">Pronoto Nje Seance</Button>
+          <Button variant="primary" className="backdrop-blur-sm">Book a Session</Button>
           <Button variant="outline" className="!text-white !border-white hover:!bg-white/10">
-            Eksploro Sherbimet Tona
+            Explore Our Services
           </Button>
         </div>
       </div>
