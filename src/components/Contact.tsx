@@ -10,8 +10,8 @@ export function Contact() {
     return (
       <section id="contact" className="py-24 bg-gradient-to-b from-white to-[#B5CDA3]/5">
         <div className="text-center">
-          <h2 className="text-3xl font-serif text-gray-900 mb-4">Faleminderit!</h2>
-          <p className="text-gray-600">Mesazhi juaj është dërguar me sukses. Ne do të kthejmë përgjigje së shpejti!</p>
+          <h2 className="text-3xl font-serif text-gray-900 mb-4">Thank You!</h2>
+          <p className="text-gray-600">Your message has been sent successfully. We will get back to you soon!</p>
         </div>
       </section>
     );
@@ -21,9 +21,9 @@ export function Contact() {
     <section id="contact" className="py-24 bg-gradient-to-b from-white to-[#B5CDA3]/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-serif text-gray-900 mb-4">Na kontakto</h2>
+          <h2 className="text-3xl font-serif text-gray-900 mb-4">Contact Us</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Keni pyetje? Ne jemi këtu për t'ju ndihmuar në udhëtimin tuaj shpirtëror.
+            Have questions? We're here to assist you on your spiritual journey.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export function Contact() {
           <div className="bg-white/50 backdrop-blur-sm p-8 rounded-xl shadow-lg border border-[#B5CDA3]/20">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Emri</label>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
                 <input
                   id="name"
                   type="text"
@@ -53,7 +53,7 @@ export function Contact() {
                 <ValidationError prefix="Email" field="email" errors={state.errors} />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mesazhi</label>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
                 <textarea
                   id="message"
                   name="message"
@@ -71,9 +71,9 @@ export function Contact() {
 
           <div className="space-y-8">
             {[
-              { icon: Mail, title: 'Kontakt', content: 'stacionihyjnor@gmail.com' },
-              { icon: Phone, title: 'Telefon', content: '+44 7767 912303' },
-              { icon: MapPin, title: 'Lokacion', content: '123 Mindfulness Street\nSerenity City, SC 12345' }
+              { icon: Mail, title: 'Email', content: 'stacionihyjnor@gmail.com' },
+              { icon: Phone, title: 'Phone', content: '+44 7767 912303' },
+              { icon: MapPin, title: 'Location', content: '123 Mindfulness Street\nSerenity City, SC 12345' }
             ].map((item, index) => (
               <div key={index} className="group bg-white/50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-[#B5CDA3]/20 flex items-start hover:shadow-xl transition-all duration-300">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#B5CDA3] to-[#A9DFF7] rounded-xl flex items-center justify-center transform group-hover:rotate-6 transition-transform duration-300">
