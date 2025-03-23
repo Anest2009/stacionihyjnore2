@@ -14,7 +14,7 @@ export function About() {
             </div>
             <div className="text-center">
               <h2 className="text-3xl font-serif text-gray-900 mb-4">About Lola</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto mb-12">Founder & Spiritual Guide</p>
+              <p className="text-gray-600 max-w-2xl mx-auto mb-12">Meditation & Sound Healing Practitioner</p>
             </div>
           </div>
           
@@ -28,14 +28,30 @@ export function About() {
               /> 
             </div>
             <div className="space-y-6">
-              <p className="text-lg text-gray-600 leading-relaxed">With over 15 years of experience in spiritual guidance and meditation, Lola has helped countless individuals find their inner peace and purpose. Her journey began in the serene mountains of Tibet, where she spent years studying ancient meditation techniques and spiritual practices.
+              <p className="text-lg text-gray-600 leading-relaxed">
+                For the past six years, I have immersed myself in the transformative power of meditation and sound
+                healing, using these sacred practices to heal my own journey while guiding and supporting others in
+                theirs. My deep exploration into frequency, vibration, and energy work has allowed me to develop a
+                profound understanding of how sound and meditation can help release past trauma, restore balance, and
+                elevate consciousness.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-              Lola's unique approach combines traditional wisdom with modern mindfulness techniques, creating a transformative experience that resonates with people from all walks of life. Her mission is to make spiritual growth accessible and meaningful for everyone.
+                Through personal practice, study, and hands-on experience, I have facilitated healing sessions that help
+                individuals reconnect with their inner peace, release emotional blockages, and raise their vibrational
+                energy. Whether through guided meditation, sound baths, chakra balancing, or vibrational therapy, my
+                mission is to empower others on their path to healing, self-discovery, and transformation.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                I believe that true healing begins from within, and by harnessing the power of sound, breath, and
+                mindfulness, we can cultivate deep emotional and energetic shifts. My work is dedicated to creating a
+                safe and sacred space for those seeking to heal, grow, and step into their highest potential.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed font-semibold text-[#B5CDA3]">
+                Let’s vibrate higher together.
               </p>
               <div className="grid grid-cols-3 gap-4 pt-6">
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
-                  <div className="text-2xl font-bold text-[#B5CDA3]">15+</div>
+                  <div className="text-2xl font-bold text-[#B5CDA3]">6+</div>
                   <div className="text-sm text-gray-600">Years of Experience</div>
                 </div>
                 <div className="text-center p-4 bg-white/50 rounded-xl shadow-sm">
@@ -54,3 +70,5 @@ export function About() {
     </section>
   );
 }
+
+export default About;
