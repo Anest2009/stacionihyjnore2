@@ -20,10 +20,10 @@ export function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
       {isOpen && (
         <div className="absolute top-full left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-[#B5CDA3]/20 py-4">
           <div className="space-y-4 px-4">
-            <NavLink href="#about" className="block">Rreth Nesh</NavLink>
-            <NavLink href="#services" className="block">Sherbime</NavLink>
-            <NavLink href="#booking" className="block">Pronoto</NavLink>
-            <NavLink href="#contact" className="block">Kontakt</NavLink>
+            <NavLink href="#about" className="block">About Us</NavLink>
+            <NavLink href="#services" className="block">Services</NavLink>
+            <NavLink href="#booking" className="block">Book Now</NavLink>
+            <NavLink href="#contact" className="block">Contact</NavLink>
           </div>
         </div>
       )}
