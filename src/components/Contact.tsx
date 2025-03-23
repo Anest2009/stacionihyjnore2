@@ -73,7 +73,7 @@ export function Contact() {
             {[
               { icon: Mail, title: 'Email', content: 'stacionihyjnor@gmail.com' },
               { icon: Phone, title: 'Phone', content: '+44 7767 912303' },
-              { icon: MapPin, title: 'Location', content: '123 Mindfulness Street\nSerenity City, SC 12345' }
+              { icon: MapPin, title: 'Location', content: 'London, UK' }
             ].map((item, index) => (
               <div key={index} className="group bg-white/50 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-[#B5CDA3]/20 flex items-start hover:shadow-xl transition-all duration-300">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#B5CDA3] to-[#A9DFF7] rounded-xl flex items-center justify-center transform group-hover:rotate-6 transition-transform duration-300">
